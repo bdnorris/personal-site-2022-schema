@@ -20,17 +20,12 @@ export default {
     {
       name: 'mainImage',
       title: 'Main image',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
-      fields: [
-        {
-          name: 'alt',
-          title: 'Alternative text',
-          type: 'string',
-        }
-      ]
+      type: 'mainImage',
+    },
+    {
+      name: 'gallery',
+      title: 'Gallery',
+      type: 'gallery',
     },
     {
       name: 'categories',
