@@ -43,6 +43,16 @@ export default {
       title: 'Body',
       type: 'blockContent',
     },
+    {
+      name: 'github',
+      title: 'Github Link',
+      type: 'url',
+    },
+    {
+      name: 'website',
+      title: 'Website Link',
+      type: 'url',
+    }
   ],
 
   preview: {
