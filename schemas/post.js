@@ -52,7 +52,13 @@ export default {
       name: 'website',
       title: 'Website Link',
       type: 'url',
-    }
+    },
+    {
+      name: "order",
+      title: "Order",
+      type: "number",
+      hidden: true,
+    },
   ],
 
   preview: {
